@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    margin-bottom: 40px;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(218, 233, 255);
 }
@@ -35,14 +36,15 @@ body {
 }
 
 .skills {
-    position: fixed;
+    position: relative;
+    height: 250px;
     z-index: -1;
 }
 
 #ht {
     font-size: 6em;
     transform: rotate(60deg);
-    position: fixed;
+    position: absolute;
     top: 30px;
     left: 20vw;
 }
@@ -90,20 +92,27 @@ body {
 .me {
     display: grid;
     grid-template-columns: 2fr 1fr 3fr;
-    position: fixed;
-    bottom: 0px;
+    position: relative;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 15vw;
     background-color: rgb(218, 233, 255);
     box-shadow: 0 0 100px 0;
-    padding-bottom: 80px;
-    height: 50vh;
+    padding-bottom: 180px;
+    padding-top: 80px;
+    height: 30vw;
 
 
     img {
         width: 20vw;
         border-radius: 50%;
     }
+}
+
+.wd {
+    font-size: 2vw;
+    position: absolute;
+    bottom: 5vh;
+    right: 30vw;
 }
 
 #sami {
@@ -113,17 +122,34 @@ body {
 .btm {
     position: fixed;
     bottom: 0px;
-    right: 0px;
     background-color: black;
     height: 5vh;
     width: 100vw;
+    z-index: 1;
 }
 
-.now {
-    position: absolute;
-    font-size: 10px;
+.proj {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    row-gap: 5em;
 
+
+    img {
+        width: 25vw;
+    }
+
+    span {
+        font-size: 5em;
+        align-self: center;
+        color: white;
+        background-color: black;
+        padding: .4em;
+        border-radius: 50%;
+    }
 }
+
+
 
 
 @media (max-width:800px) {
@@ -144,13 +170,14 @@ body {
         height: auto;
 
         img {
-            margin-top: 5px;
+            margin-top: -50px;
             width: 300px;
         }
     }
 
     #sami {
         grid-row-start: 2;
+        margin: -20px;
     }
 
 
@@ -171,6 +198,31 @@ body {
             width: auto;
         }
 
+    }
+
+    .wd {
+        font-size: 4vw;
+        position: absolute;
+        bottom: 30vh;
+        right: 7vw;
+    }
+
+
+    .proj {
+        grid-template-columns: 1fr;
+
+
+        img {
+            height: 300px;
+        }
+
+        span {
+            align-self: center;
+            color: white;
+            background-color: black;
+            padding: .4em;
+            border-radius: 50%;
+        }
     }
 
 }
