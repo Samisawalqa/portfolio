@@ -6,6 +6,16 @@ body {
 
 }
 
+.top {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    border-radius: 50%;
+    height: 5vw;
+    margin: -20px;
+    z-index: 3;
+}
+
 
 .btm {
     position: fixed;
@@ -140,11 +150,7 @@ body {
 
 }
 
-.all{
-    
-}
-
-.abt {
+.skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -177,7 +183,7 @@ body {
 }
 
 
-.abt1 {
+.prjt {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     height: auto;
@@ -243,6 +249,9 @@ body {
 
 @media (max-width:800px) {
 
+    .top {
+        height: 10vw;
+    }
 
     .eml {
         width: 5vw;
@@ -256,7 +265,7 @@ body {
     }
 
     .bg {
-        height: 200px;
+        height: 150px;
         font-size: 60px;
 
     }
@@ -276,7 +285,7 @@ body {
     }
 
 
-    .abt {
+    .skills {
         grid-template-columns: 1fr 1fr;
         font-size: 40px;
         margin-bottom: 30px;
@@ -294,7 +303,7 @@ body {
 
     }
 
-    .abt1 {
+    .prjt {
         font-size: 40px;
         row-gap: 60px;
         margin-bottom: 30px;
