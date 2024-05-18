@@ -137,7 +137,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 10vw;
+        width: 5em;
         margin-bottom: 5px;
     }
 
@@ -176,7 +176,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 20vw;
+        width: 5em;
     }
 
 
@@ -216,7 +216,7 @@ body {
     }
 
     img {
-        width: 20vw;
+        width: 10em;
         transition: .3s ease;
         border-radius: 15px;
         position: relative;
@@ -297,7 +297,7 @@ body {
         }
 
         img {
-            width: 30vw;
+            width: 7em;
         }
 
 
@@ -317,7 +317,7 @@ body {
         }
 
         img {
-            width: 40vw;
+            width: 10em;
         }
 
 
@@ -328,24 +328,14 @@ body {
     .exp {
         grid-template-columns: 1fr;
         font-size: 20px;
-        margin-bottom: 30px;
-        padding-bottom: 20px;
-        row-gap: 40px;
 
         h1 {
             grid-column: span 1;
             padding: 40px;
-            border-bottom: solid;
             width: 50vw;
-            font-weight: 900;
-            text-align: center;
             font-size: 50px;
         }
 
-        img {
-            border-bottom: solid;
-            width: 20vw;
-        }
 
     }
 
