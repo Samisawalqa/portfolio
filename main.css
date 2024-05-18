@@ -26,7 +26,6 @@ body {
     z-index: 1;
 }
 
-/* 
 .bg {
 
     display: flex;
@@ -39,7 +38,7 @@ body {
     z-index: -1;
     width: 100vw;
 
-} */
+}
 
 .nav {
     background-color: black;
@@ -78,7 +77,6 @@ body {
     background-color: rgb(218, 233, 255);
     margin-bottom: 30px;
     padding: 30px;
-    width: 100vw;
     margin-top: 200px;
 
     h1 {
@@ -130,7 +128,6 @@ body {
     padding-bottom: 20px;
     row-gap: 40px;
     text-align: center;
-    width: 100vw;
     gap: 10px;
 
 
@@ -146,7 +143,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 100px;
+        width: 5em;
         margin-bottom: 5px;
     }
 
@@ -171,7 +168,6 @@ body {
     font-size: 40px;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    width: 100vw;
     row-gap: 40px;
 
     h1 {
@@ -186,7 +182,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 200px;
+        width: 10em;
     }
 
 
@@ -196,7 +192,6 @@ body {
 .prjt {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: auto;
     grid-auto-flow: row;
     grid-auto-rows: auto;
     justify-items: center;
@@ -205,8 +200,7 @@ body {
     font-size: 30px;
     padding-bottom: 30px;
     text-align: center;
-    row-gap: 100px;
-    width: 100vw;
+    row-gap: 5em;
     z-index: -1;
 
     div {
@@ -230,7 +224,6 @@ body {
         width: 10em;
         transition: .3s ease;
         border-radius: 15px;
-        position: relative;
     }
 
     img:hover {
@@ -258,7 +251,7 @@ body {
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 700px) {
 
     .top {
         height: 10vw;
@@ -328,7 +321,7 @@ body {
         }
 
         img {
-            width: 140px;
+            width: 7em;
         }
 
 
