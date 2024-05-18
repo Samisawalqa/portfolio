@@ -311,17 +311,17 @@ body {
         font-size: 40px;
         row-gap: 60px;
         margin-bottom: 30px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
 
         h1 {
-            grid-column: span 2;
+            grid-column: span 1;
             font-size: 50px;
             width: 70vw;
-            padding: 70px;
+            padding: 60px;
         }
 
         img {
-            width: 7em;
+            width: 6em;
         }
 
 
