@@ -137,7 +137,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 5em;
+        width: 100px;
         margin-bottom: 5px;
     }
 
@@ -176,7 +176,7 @@ body {
 
     img {
         border-bottom: solid;
-        width: 5em;
+        width: 200px;
     }
 
 
@@ -247,7 +247,7 @@ body {
 
 }
 
-@media (max-width:800px) {
+@media (max-width: 700px) {
 
     .top {
         height: 10vw;
@@ -297,7 +297,7 @@ body {
         }
 
         img {
-            width: 7em;
+            width: 100px;
         }
 
 
@@ -317,7 +317,7 @@ body {
         }
 
         img {
-            width: 10em;
+            width: 140px;
         }
 
 
