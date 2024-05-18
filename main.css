@@ -27,12 +27,16 @@ body {
 }
 
 .bg {
+
     display: flex;
     flex-wrap: wrap;
+    position: fixed;
     flex-direction: row;
     height: 200px;
     font-size: 100px;
     justify-content: space-between;
+    z-index: -1;
+
 }
 
 .nav {
@@ -72,6 +76,7 @@ body {
     background-color: rgb(218, 233, 255);
     margin-bottom: 30px;
     padding: 30px;
+    margin-top: 200px;
 
     h1 {
         font-size: 110px;
@@ -342,19 +347,16 @@ body {
 }
 
 #html {
-    z-index: -1;
     animation: html 5s;
     animation-iteration-count: infinite;
 }
 
 #css {
-    z-index: -1;
     animation: css 3s;
     animation-iteration-count: infinite;
 }
 
 #js {
-    z-index: -1;
     animation: js 5s;
     animation-iteration-count: infinite;
 }
