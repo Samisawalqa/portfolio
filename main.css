@@ -26,6 +26,7 @@ body {
     z-index: 1;
 }
 
+/* 
 .bg {
 
     display: flex;
@@ -38,7 +39,7 @@ body {
     z-index: -1;
     width: 100vw;
 
-}
+} */
 
 .nav {
     background-color: black;
