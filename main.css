@@ -271,6 +271,7 @@ body {
 .ftr {
     text-align: center;
     font-size: 1.5em;
+    padding: 10px;
 
     a {
         color: black;
