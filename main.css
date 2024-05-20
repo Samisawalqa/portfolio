@@ -11,9 +11,9 @@ html {
 }
 
 .top {
-    position: fixed;
-    bottom: 70px;
-    right: 40px;
+    position: sticky;
+    top: 90%;
+    left: 90%;
     border-radius: 50%;
     height: 5vw;
     margin: -20px;
@@ -26,6 +26,7 @@ html {
     display: flex;
     flex-wrap: wrap;
     position: fixed;
+    top: 10px;
     flex-direction: row;
     height: 200px;
     font-size: 100px;
@@ -36,10 +37,12 @@ html {
 }
 
 .nav {
-    background-color: black;
     color: white;
-    text-align: end;
     padding: 10px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 4;
 
     button {
         width: 6em;
@@ -73,12 +76,12 @@ html {
     background-color: rgb(218, 233, 255);
     margin-bottom: 30px;
     padding: 20px;
-    margin-top: 200px;
+    margin-top: 130px;
     line-height: 2em;
 
     h1 {
         line-height: 1em;
-        font-size: 4em;
+        font-size: 4rem;
     }
 
     article {
@@ -287,7 +290,7 @@ html {
         text-align: center;
         padding-top: 20PX;
         padding-bottom: 20PX;
-        font-size: 2em;
+        font-size: 1em;
 
 
         h1 {
@@ -319,8 +322,8 @@ html {
 
 
     .top {
-        height: 10vw;
-        bottom: 2em;
+        height: 3em;
+        left: 85%;
     }
 
     .eml {
@@ -335,9 +338,9 @@ html {
     }
 
     .bg {
+        top: 10px;
         height: 150px;
         font-size: 60px;
-
     }
 
 
