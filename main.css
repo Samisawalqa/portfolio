@@ -12,7 +12,7 @@ html {
 
 .top {
     position: sticky;
-    top: 90%;
+    top: 80%;
     left: 90%;
     border-radius: 50%;
     height: 5vw;
@@ -152,7 +152,7 @@ html {
     }
 
     article {
-        width: 30vw;
+        width: 40vw;
         padding: 2em;
         border-radius: 15px;
         border: solid rgb(76, 92, 116);
@@ -164,7 +164,6 @@ html {
 .skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    height: auto;
     grid-auto-flow: row;
     grid-auto-rows: auto;
     justify-items: center;
@@ -173,7 +172,7 @@ html {
     font-size: 40px;
     margin-bottom: 30px;
     padding-bottom: 20px;
-    row-gap: 40px;
+    row-gap: 20px;
 
     h1 {
         grid-column: span 3;
@@ -239,7 +238,7 @@ html {
 }
 
 
-.btn {
+#btn {
     text-decoration: none;
     border: solid rgb(76, 92, 116) 3px;
     background-color: rgb(218, 233, 255);
@@ -251,7 +250,7 @@ html {
 
 }
 
-.btn:hover {
+#btn:hover {
     color: white;
     background-color: rgb(76, 92, 116);
 
@@ -342,7 +341,7 @@ html {
 
     }
 
-    .btn {
+    #btn {
 
         margin-top: 20px;
         font-size: 1rem;
@@ -411,7 +410,7 @@ html {
         }
 
         article {
-            width: 50vw;
+            width: 80vw;
         }
 
     }
